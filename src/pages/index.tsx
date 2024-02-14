@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin"],
     icons: [
         {
-            url:"/favicon-32x32.png",
+            url:"./favicon-32x32.png",
         }
     ]
   };
