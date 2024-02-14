@@ -14,7 +14,6 @@ import Footer from "./Footer"
 
 export default function IndexPage() {
   return (
-    <>
     <div className="flex flex-col min-h-[100dvh]">
       <Navbar />
       <main>
@@ -24,7 +23,6 @@ export default function IndexPage() {
       </main>
       <Footer/>
     </div>
-    </>
   )
 }
 
