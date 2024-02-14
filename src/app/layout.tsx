@@ -13,10 +13,11 @@ export const metadata: Metadata = {
       url: "/favicon-32x32.png",
     },
   ],
-  authors: ["Kevin"],
-  siteName: "Kevin's Portfolio",
-  locale: "en_US",
-  type: "website",
+  authors: [
+    {
+      name: "Kevin",
+    },
+  ],
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
