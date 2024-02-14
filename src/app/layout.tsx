@@ -8,11 +8,6 @@ export const metadata: Metadata = {
   title: "Kevin's Portfolio",
   description: "Kevin's (@vnctkevin) personal portfolio website",
   keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin"],
-  icons: [
-    {
-      url: "/favicon-32x32.png",
-    },
-  ],
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
