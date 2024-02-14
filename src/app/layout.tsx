@@ -6,8 +6,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Kevin's Portfolio",
-  description: "A portfolio of Kevin's work and experiences.",
-  keywords: ["portfolio", "Kevin", "software"],
+  description: "Kevin's (@vnctkevin) personal portfolio website",
+  keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin"],
+  icons: [
+    {
+      url: "/favicon-32x32.png",
+    },
+  ],
+  authors: ["Kevin"],
+  siteName: "Kevin's Portfolio",
+  locale: "en_US",
+  type: "website",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
