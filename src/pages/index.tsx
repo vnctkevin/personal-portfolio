@@ -25,6 +25,9 @@ export const metadata: Metadata = {
 
 export default function Index() {
   return (
+    <>
+    <link rel="icon" href="./favicon.ico" sizes="any" />
       <IndexPage />
+      </>
   )
 }
