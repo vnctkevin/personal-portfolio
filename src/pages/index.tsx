@@ -7,14 +7,11 @@ import Image from "next/image";
 import Link from "next/link"
 import IndexPage from "../../components/IndexPage";
 import * as React from "react"
-import Layout from "./layout";
 
 import "./globals.css"
 
 export default function Index() {
   return (
-    <Layout>
       <IndexPage />
-    </Layout>
   )
 }
