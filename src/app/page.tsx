@@ -7,7 +7,6 @@ import Image from "next/image";
 import Link from "next/link"
 import IndexPage from "../../components/IndexPage";
 import * as React from "react"
-import { EXPERIENCES } from "../constants/experiences"
 
 import "./globals.css"
 
@@ -19,7 +18,7 @@ export default function Home() {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
