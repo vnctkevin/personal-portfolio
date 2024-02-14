@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function Layout(children: any) {
+export default function Layout(children : React.ReactNode) {
   return (
     <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
-      {children.map((child: any, index: number) => (<div>{child}</div>))}
+      {children}
     </div>
   );
 }
