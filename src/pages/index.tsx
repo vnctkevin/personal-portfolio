@@ -25,17 +25,6 @@ export const metadata: Metadata = {
 
 export default function Index() {
   return (
-    <html lang="en">
-    <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Kevin's (@vnctkevin) personal portfolio website" />
-        <meta name="keywords" content="portfolio, Kevin, software, development, design, vnctkevin" />
-        <meta name="author" content="Kevin" />
-        <link rel="icon" href="./favicon-32x32.png" />
-        <title>Kevin's Portfolio</title>
-    </head>
       <IndexPage />
-    </html>
   )
 }
