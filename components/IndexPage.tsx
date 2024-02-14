@@ -17,7 +17,7 @@ export default function IndexPage() {
     <>
     <div className="flex flex-col min-h-[100dvh]">
       <Navbar />
-      <main className="flex-1">
+      <main>
         <HeroSection />
         <Experiences />
         <Projects/>
@@ -25,7 +25,6 @@ export default function IndexPage() {
       <Footer/>
     </div>
     </>
-    
   )
 }
 
