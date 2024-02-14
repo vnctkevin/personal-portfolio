@@ -13,16 +13,11 @@ export const metadata: Metadata = {
       url: "/favicon-32x32.png",
     },
   ],
-  authors: [
-    {
-      name: "Kevin",
-    },
-  ],
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
       {children}
     </div>
   );
