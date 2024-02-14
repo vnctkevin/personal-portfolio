@@ -14,6 +14,15 @@ import Footer from "./Footer"
 
 export default function IndexPage() {
   return (
+    <>
+    <head>
+      <title>Kevin's Portfolio</title>
+      <meta name="description" content="Kevin's (@vnctkevin) personal portfolio website" />
+      <meta name="keywords" content="portfolio, Kevin, software, development, design, vnctkevin" />
+      <meta name="author" content="Kevin" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="/favicon-32x32.png" />
+    </head>
     <div className="flex flex-col min-h-[100dvh]">
       <Navbar />
       <main className="flex-1">
@@ -57,6 +66,8 @@ export default function IndexPage() {
       </main>
       <Footer/>
     </div>
+    </>
+    
   )
 }
 
