@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin"],
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: any) {
   return (
     <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
       {children}
