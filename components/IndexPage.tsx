@@ -14,7 +14,7 @@ import Footer from "./Footer"
 
 export default function IndexPage() {
   return (
-    <div className="flex flex-col min-h-[100dvh]">
+    <div className="flex flex-col min-h-[100dvh] bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
       <Navbar />
       <main>
         <HeroSection />

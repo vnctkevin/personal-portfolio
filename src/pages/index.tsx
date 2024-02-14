@@ -7,8 +7,14 @@ import Image from "next/image";
 import Link from "next/link"
 import IndexPage from "../../components/IndexPage";
 import * as React from "react"
-
+import type { Metadata } from "next";
 import "./globals.css"
+
+export const metadata: Metadata = {
+    title: "Kevin's Portfolio",
+    description: "Kevin's (@vnctkevin) personal portfolio website",
+    keywords: ["portfolio", "Kevin", "software", "development", "design", "vnctkevin"],
+  };
 
 export default function Index() {
   return (
