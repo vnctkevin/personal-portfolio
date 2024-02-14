@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "A portfolio of Kevin's work and experiences.",
 };
 
-export default function Layout({ children }) {
+export default function Layout(children: any) {
   return (
     <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
       {children}
