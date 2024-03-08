@@ -26,7 +26,7 @@ export default function Projects() {
       return experiences.map((experience: SingularExperienceType) => {
         return (
           <>
-            <div className="mx-auto w-full items-center justify-center p-4 sm:p-8 border">
+            <div className="mx-auto w-full h-full items-center justify-center content-between p-4 sm:p-8 border">
                 <h3 className="text-lg font-bold">{experience.name}</h3>
                 <div className="flex flex-col w-full space-y-4">
                     {experience.history.map((history, index) => (
@@ -45,11 +45,11 @@ export default function Projects() {
                             ))}
                         </div>
                         <Link
-                  className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-                  href={experience.link}
-                >
-                  Open Link
-                </Link>
+                          className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                          href={experience.link}
+                        >
+                         Open Link
+                        </Link>
                         </div>
                     ))}
                     </div>
@@ -66,7 +66,7 @@ export default function Projects() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Projects</h2>
               <div className="divide-y rounded-lg border">
-                <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-stretch justify-center divide-x divide-y">
+                <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-stretch justify-center content-space divide-x divide-y">
                   {renderExperiences(allExperiences.Projects)}
                 </div>
               </div>
