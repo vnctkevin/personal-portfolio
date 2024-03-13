@@ -1,5 +1,24 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import TextAnimation from './TextAnimation';
+import RedoTextAnimation from './RedoTextAnimation';
+import { motion } from "framer-motion";
+
+
+const itemVariants = {
+  hidden: {
+    opacity: 0,
+    y: 15
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.3,
+      ease: "easeOut"
+    }
+  }
+};
 
 export default function HeroSection() {
     return (
@@ -10,8 +29,10 @@ export default function HeroSection() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl/tight lg:text-6xl/none">
                   Hi, I'm Kevin
                 </h1>
+                
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I am a student, a developer, and a designer. I am a creative and dedicated person who's passionate about visual design, UI/UX design, and software and web development. After five years of experience in the creative field, I have helped people visualize their dreams and visions, and I will be more than happy to cooperate with you.
+                <b>I am a <RedoTextAnimation /></b></p> 
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">I am a creative and dedicated person who's passionate about visual design, UI/UX design, and software and web development. After five years of experience in the creative field, I have helped people visualize their dreams and visions, and I will be more than happy to cooperate with you.
                 </p>
               </div>
               <div className="flex flex-col justify-center md:justify-start gap-2 min-[400px]:flex-row">
@@ -23,7 +44,7 @@ export default function HeroSection() {
                 </Link>
                 <Link
                   className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                  href="#"
+                  href="mailto:"
                 >
                   Contact Me
                 </Link>
