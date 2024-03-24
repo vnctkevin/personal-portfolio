@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "../../components/ThemeProvider";
+import { ThemeProvider } from "next-themes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,15 +19,12 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: any) {
   return (
-    <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange>
-        <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
-          <link rel="icon" href="/favicon.ico" sizes="any" />
-          {children}
-        </div>
-    </ThemeProvider>
-  );
+    <html suppressHydrationWarning>
+      <head />
+      <body>
+        <ThemeProvider
+        attribute="class">{children}</ThemeProvider>
+      </body>
+    </html>
+  )
 } 

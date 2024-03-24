@@ -30,7 +30,7 @@ export default function Experiences() {
                 <h3 className="text-lg font-bold">{experience.name}</h3>
                 {experience.history.map((history, index) => (
                     <div key={index} className='pr-8'>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 pb-2">{history.role} | {history.date}</p>
+                    <p className="text-sm pb-2">{history.role} | {history.date}</p>
                     {history.job_desc?.map((desc, i) => (
                         <li key={i}>{desc}</li>
                     ))}
@@ -49,13 +49,13 @@ export default function Experiences() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
               <p className="text-lg text-gray-500 dark:text-gray-400">I have worked with a range of companies, organizations, and projects. Here are a few of my experiences.</p>
-              <div className="container border-t border-gray-200 border-gray-200 dark:border-gray-800 dark:border-gray-800">
+              <div className="border-t border-gray-200 border-gray-200 dark:border-gray-800 dark:border-gray-800">
               {renderExperiences(allExperiences.Work)} 
               </div>
             </div>
           </div>
         </section>
-      <section className="w-full py-8 md:py-12 lg:py-24 bg-gray-100 dark:bg-gray-800">
+      <section className="w-full py-8 md:py-12 lg:py-24 bg-gray-100 dark:bg-gray-100 dark:text-gray-900">
           <div className="px-4 md:px-6">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Education</h2>
