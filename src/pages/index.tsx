@@ -1,9 +1,4 @@
 import Image from "next/image";
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/qIfaZ6Ne5Gb
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import Head from 'next/head'
 import Link from "next/link"
 import IndexPage from "../../components/IndexPage";
