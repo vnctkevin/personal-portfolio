@@ -66,10 +66,10 @@ export default function Experiences() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
             <p className="text-lg text-gray-500 dark:text-gray-400">I have worked with a range of companies, organizations, and projects. Here are a few of my experiences.</p>
-              <div className="flex justify-between md:justify-start overflow-x-scroll max-space-x-4 bg-gray-100 dark:bg-gray-700 rounded-md border-b border-t border-gray-300 dark:border-gray-600">
+              <div className="flex justify-between md:justify-start space-x-4 bg-gray-100 dark:bg-gray-900 rounded-md border-b border-t border-gray-400 dark:border-gray-600">
                 <button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
-                    experienceTabs === 0 ? 'text-gray-900 border-2 dark:bg-gray-100 bg-gray-300' : 'dark:text-gray-200 bg-transparent'
+                    experienceTabs === 0 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(0)}
                 >
@@ -77,7 +77,7 @@ export default function Experiences() {
                 </button>
                 <button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
-                    experienceTabs === 1 ? 'text-gray-900 border-2 dark:bg-gray-100 bg-gray-300' : 'dark:text-gray-200 bg-transparent'
+                    experienceTabs === 1 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(1)}
                 >
@@ -85,7 +85,7 @@ export default function Experiences() {
                 </button>
                 <button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
-                    experienceTabs === 2 ? 'text-gray-900  border-2 dark:bg-gray-100 bg-gray-300' : 'dark:text-gray-200 bg-transparent'
+                    experienceTabs === 2 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(2)}
                 >
@@ -93,7 +93,7 @@ export default function Experiences() {
                 </button>
                 <button
                   className={`px-4 py-2 text-sm font-medium focus:outline-none rounded-md ${
-                    experienceTabs === 3 ? 'text-gray-900 border-2 dark:bg-gray-100 bg-gray-300' : 'dark:text-gray-200 bg-transparent'
+                    experienceTabs === 3 ? 'text-gray-900 dark:bg-gray-100 bg-gray-300' : 'text-gray-500 bg-transparent'
                   }`}
                   onClick={() => setExperienceTabs(3)}
                 >

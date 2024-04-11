@@ -10,7 +10,6 @@ import Image from "next/image"
 import Experiences from "./Experiences"
 import Projects from "./Projects"
 import Footer from "./Footer"
-import CTASection from "./CTASection"
 
 
 export default function IndexPage() {
@@ -20,7 +19,6 @@ export default function IndexPage() {
       <main>
         <HeroSection />
         <Experiences />
-        <CTASection />
       </main>
       <Footer/>
     </div>
