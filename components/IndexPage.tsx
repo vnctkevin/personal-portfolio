@@ -19,7 +19,6 @@ export default function IndexPage() {
       <main>
         <HeroSection />
         <Experiences />
-        <Projects/>
       </main>
       <Footer/>
     </div>

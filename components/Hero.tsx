@@ -32,7 +32,8 @@ export default function HeroSection() {
                 
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 <b>I am a <RedoTextAnimation /></b></p> 
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">I am a creative and dedicated person who's passionate about visual design, UI/UX design, and software and web development. After five years of experience in the creative field, I have helped people visualize their dreams and visions, and I will be more than happy to cooperate with you.
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Currently, I'm studying Computer Science at University of Indonesia as an undergraduate student. As a creative and dedicated person who's passionate about <b>visual design, UI/UX design, and software and web development</b>, I have helped people visualize their dreams and visions for more than five years. I will be more than happy to cooperate with you.
                 </p>
               </div>
               <div className="flex flex-col justify-center md:justify-start gap-2 min-[400px]:flex-row">
@@ -44,9 +45,9 @@ export default function HeroSection() {
                 </Link>
                 <Link
                   className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-300 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                  href="mailto:"
+                  href="assets/Portfolio_Kevin.pdf"
                 >
-                  Contact Me
+                  Download Portfolio
                 </Link>
               </div>
             </div>

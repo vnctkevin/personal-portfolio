@@ -17,7 +17,7 @@ const EducationsExperience: SingularExperienceType[] = [
       },
     ],
 
-    skills: [SKILLS.Python],
+    skills: [],
   },
   {
     name: "Canisius College Senior High School",
@@ -30,11 +30,13 @@ const EducationsExperience: SingularExperienceType[] = [
       {
         role: "High School Diploma",
         date: "Nov. 2021 - Dec. 2022",
-        job_desc: [   ],
+        job_desc: [
+          "Activities and societies: Visual Designer (Canisius Education Fair 2018), Journalist, Multimedia, Visual Designer (Temu Kolese 2018), Visual Designer (Canisius College League 2018), Vice PIC of Visual Design (Canisius College Cup 2019)"
+        ],
       },
     ],
 
-    skills: [SKILLS.Python],
+    skills: [],
   },
 ]
 export default EducationsExperience;

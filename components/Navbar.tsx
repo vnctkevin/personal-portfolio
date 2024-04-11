@@ -7,7 +7,7 @@ export default function Navbar() {
     const { theme, setTheme } = useTheme();
     return (
         <>
-        <header className="px-4 lg:px-6 h-14 flex items-center">
+        <header className="px-4 lg:px-6 h-14 flex items-center dark:bg-gray-900">
               <header className="px-4 lg:px-6 h-14 flex items-center">
                 <Link className="flex items-center justify-center" href="#">
                   <img
@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
             About
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="mailto:vnctkevin@gmail.com">
             Contact
           </Link>
           <button

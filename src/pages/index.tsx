@@ -10,6 +10,7 @@ import IndexPage from "../../components/IndexPage";
 import * as React from "react"
 import type { Metadata } from "next";
 import "./globals.css"
+import { ThemeProvider } from 'next-themes';
 
 export const metadata: Metadata = {
     title: "Kevin's Portfolio",
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
 export default function Index() {
   return (
     <>
+    <ThemeProvider attribute="class">
     <Head>
         <title>Kevin's Portfolio</title>
         <meta name="description" content="Kevin's (@vnctkevin) personal portfolio website" />
@@ -43,6 +45,7 @@ export default function Index() {
         </script>
     </Head> 
       <IndexPage />
+    </ThemeProvider>
     </>
   )
 }
